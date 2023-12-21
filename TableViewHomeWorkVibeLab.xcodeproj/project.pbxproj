@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA0698DD2B3360E700CDE286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698DC2B3360E700CDE286 /* AppDelegate.swift */; };
+		EA0698DF2B3360E700CDE286 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698DE2B3360E700CDE286 /* SceneDelegate.swift */; };
+		EA0698E12B3360E700CDE286 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698E02B3360E700CDE286 /* ViewController.swift */; };
+		EA0698E62B3360E800CDE286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0698E52B3360E800CDE286 /* Assets.xcassets */; };
+		EA0698E92B3360E800CDE286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0698E72B3360E800CDE286 /* LaunchScreen.storyboard */; };
+		EA0698F42B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698F32B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.swift */; };
+		EA0698FE2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698FD2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.swift */; };
+		EA0699002B3360E900CDE286 /* TableViewHomeWorkVibeLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0698FF2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITestsLaunchTests.swift */; };
+		EA06990D2B33632700CDE286 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06990C2B33632700CDE286 /* CustomTableViewCell.swift */; };
+		EA06990F2B3365BB00CDE286 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA06990E2B3365BB00CDE286 /* Model.swift */; };
+		EA0699112B3367BC00CDE286 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0699102B3367BC00CDE286 /* DataManager.swift */; };
+		EA0A26BF2B338DF900643D5C /* UserFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A26BE2B338DF900643D5C /* UserFormViewController.swift */; };
+		EA0A26C12B33DD8B00643D5C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0A26C02B33DD8B00643D5C /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA0698F02B3360E900CDE286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0698D12B3360E700CDE286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0698D82B3360E700CDE286;
+			remoteInfo = TableViewHomeWorkVibeLab;
+		};
+		EA0698FA2B3360E900CDE286 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA0698D12B3360E700CDE286 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA0698D82B3360E700CDE286;
+			remoteInfo = TableViewHomeWorkVibeLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA0698D92B3360E700CDE286 /* TableViewHomeWorkVibeLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewHomeWorkVibeLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0698DC2B3360E700CDE286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA0698DE2B3360E700CDE286 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA0698E02B3360E700CDE286 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA0698E52B3360E800CDE286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA0698E82B3360E800CDE286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA0698EA2B3360E800CDE286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0698EF2B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewHomeWorkVibeLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0698F32B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHomeWorkVibeLabTests.swift; sourceTree = "<group>"; };
+		EA0698F92B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewHomeWorkVibeLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0698FD2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHomeWorkVibeLabUITests.swift; sourceTree = "<group>"; };
+		EA0698FF2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHomeWorkVibeLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA06990C2B33632700CDE286 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EA06990E2B3365BB00CDE286 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		EA0699102B3367BC00CDE286 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EA0A26BE2B338DF900643D5C /* UserFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFormViewController.swift; sourceTree = "<group>"; };
+		EA0A26C02B33DD8B00643D5C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0698D62B3360E700CDE286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0698EC2B3360E900CDE286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0698F62B3360E900CDE286 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA0698D02B3360E700CDE286 = {
+			isa = PBXGroup;
+			children = (
+				EA0698DB2B3360E700CDE286 /* TableViewHomeWorkVibeLab */,
+				EA0698F22B3360E900CDE286 /* TableViewHomeWorkVibeLabTests */,
+				EA0698FC2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests */,
+				EA0698DA2B3360E700CDE286 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0698DA2B3360E700CDE286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0698D92B3360E700CDE286 /* TableViewHomeWorkVibeLab.app */,
+				EA0698EF2B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.xctest */,
+				EA0698F92B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0698DB2B3360E700CDE286 /* TableViewHomeWorkVibeLab */ = {
+			isa = PBXGroup;
+			children = (
+				EA0698DC2B3360E700CDE286 /* AppDelegate.swift */,
+				EA0698DE2B3360E700CDE286 /* SceneDelegate.swift */,
+				EA1A7EA62B341279003422ED /* Controllers */,
+				EA0699102B3367BC00CDE286 /* DataManager.swift */,
+				EA06990C2B33632700CDE286 /* CustomTableViewCell.swift */,
+				EA1A7EA72B341295003422ED /* Model */,
+				EA0698E52B3360E800CDE286 /* Assets.xcassets */,
+				EA0698E72B3360E800CDE286 /* LaunchScreen.storyboard */,
+				EA0698EA2B3360E800CDE286 /* Info.plist */,
+			);
+			path = TableViewHomeWorkVibeLab;
+			sourceTree = "<group>";
+		};
+		EA0698F22B3360E900CDE286 /* TableViewHomeWorkVibeLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0698F32B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.swift */,
+			);
+			path = TableViewHomeWorkVibeLabTests;
+			sourceTree = "<group>";
+		};
+		EA0698FC2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA0698FD2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.swift */,
+				EA0698FF2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITestsLaunchTests.swift */,
+			);
+			path = TableViewHomeWorkVibeLabUITests;
+			sourceTree = "<group>";
+		};
+		EA1A7EA62B341279003422ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA0698E02B3360E700CDE286 /* ViewController.swift */,
+				EA0A26C02B33DD8B00643D5C /* DetailViewController.swift */,
+				EA0A26BE2B338DF900643D5C /* UserFormViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EA1A7EA72B341295003422ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA06990E2B3365BB00CDE286 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0698D82B3360E700CDE286 /* TableViewHomeWorkVibeLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0699032B3360E900CDE286 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkVibeLab" */;
+			buildPhases = (
+				EA0698D52B3360E700CDE286 /* Sources */,
+				EA0698D62B3360E700CDE286 /* Frameworks */,
+				EA0698D72B3360E700CDE286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewHomeWorkVibeLab;
+			productName = TableViewHomeWorkVibeLab;
+			productReference = EA0698D92B3360E700CDE286 /* TableViewHomeWorkVibeLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA0698EE2B3360E900CDE286 /* TableViewHomeWorkVibeLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0699062B3360E900CDE286 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkVibeLabTests" */;
+			buildPhases = (
+				EA0698EB2B3360E900CDE286 /* Sources */,
+				EA0698EC2B3360E900CDE286 /* Frameworks */,
+				EA0698ED2B3360E900CDE286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0698F12B3360E900CDE286 /* PBXTargetDependency */,
+			);
+			name = TableViewHomeWorkVibeLabTests;
+			productName = TableViewHomeWorkVibeLabTests;
+			productReference = EA0698EF2B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA0698F82B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0699092B3360E900CDE286 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkVibeLabUITests" */;
+			buildPhases = (
+				EA0698F52B3360E900CDE286 /* Sources */,
+				EA0698F62B3360E900CDE286 /* Frameworks */,
+				EA0698F72B3360E900CDE286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA0698FB2B3360E900CDE286 /* PBXTargetDependency */,
+			);
+			name = TableViewHomeWorkVibeLabUITests;
+			productName = TableViewHomeWorkVibeLabUITests;
+			productReference = EA0698F92B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0698D12B3360E700CDE286 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EA0698D82B3360E700CDE286 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					EA0698EE2B3360E900CDE286 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = EA0698D82B3360E700CDE286;
+					};
+					EA0698F82B3360E900CDE286 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = EA0698D82B3360E700CDE286;
+					};
+				};
+			};
+			buildConfigurationList = EA0698D42B3360E700CDE286 /* Build configuration list for PBXProject "TableViewHomeWorkVibeLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0698D02B3360E700CDE286;
+			productRefGroup = EA0698DA2B3360E700CDE286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0698D82B3360E700CDE286 /* TableViewHomeWorkVibeLab */,
+				EA0698EE2B3360E900CDE286 /* TableViewHomeWorkVibeLabTests */,
+				EA0698F82B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0698D72B3360E700CDE286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0698E92B3360E800CDE286 /* LaunchScreen.storyboard in Resources */,
+				EA0698E62B3360E800CDE286 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0698ED2B3360E900CDE286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0698F72B3360E900CDE286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0698D52B3360E700CDE286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA06990F2B3365BB00CDE286 /* Model.swift in Sources */,
+				EA0699112B3367BC00CDE286 /* DataManager.swift in Sources */,
+				EA0698E12B3360E700CDE286 /* ViewController.swift in Sources */,
+				EA0698DD2B3360E700CDE286 /* AppDelegate.swift in Sources */,
+				EA0A26BF2B338DF900643D5C /* UserFormViewController.swift in Sources */,
+				EA06990D2B33632700CDE286 /* CustomTableViewCell.swift in Sources */,
+				EA0698DF2B3360E700CDE286 /* SceneDelegate.swift in Sources */,
+				EA0A26C12B33DD8B00643D5C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0698EB2B3360E900CDE286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0698F42B3360E900CDE286 /* TableViewHomeWorkVibeLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0698F52B3360E900CDE286 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0699002B3360E900CDE286 /* TableViewHomeWorkVibeLabUITestsLaunchTests.swift in Sources */,
+				EA0698FE2B3360E900CDE286 /* TableViewHomeWorkVibeLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA0698F12B3360E900CDE286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0698D82B3360E700CDE286 /* TableViewHomeWorkVibeLab */;
+			targetProxy = EA0698F02B3360E900CDE286 /* PBXContainerItemProxy */;
+		};
+		EA0698FB2B3360E900CDE286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA0698D82B3360E700CDE286 /* TableViewHomeWorkVibeLab */;
+			targetProxy = EA0698FA2B3360E900CDE286 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA0698E72B3360E800CDE286 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0698E82B3360E800CDE286 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0699012B3360E900CDE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA0699022B3360E900CDE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0699042B3360E900CDE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT74UNCYRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableViewHomeWorkVibeLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vibelab.com.TableViewHomeWorkVibeLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA0699052B3360E900CDE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT74UNCYRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TableViewHomeWorkVibeLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vibelab.com.TableViewHomeWorkVibeLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA0699072B3360E900CDE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT74UNCYRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vibelab.com.TableViewHomeWorkVibeLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewHomeWorkVibeLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableViewHomeWorkVibeLab";
+			};
+			name = Debug;
+		};
+		EA0699082B3360E900CDE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT74UNCYRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vibelab.com.TableViewHomeWorkVibeLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewHomeWorkVibeLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TableViewHomeWorkVibeLab";
+			};
+			name = Release;
+		};
+		EA06990A2B3360E900CDE286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT74UNCYRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vibelab.com.TableViewHomeWorkVibeLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewHomeWorkVibeLab;
+			};
+			name = Debug;
+		};
+		EA06990B2B3360E900CDE286 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT74UNCYRH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vibelab.com.TableViewHomeWorkVibeLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TableViewHomeWorkVibeLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0698D42B3360E700CDE286 /* Build configuration list for PBXProject "TableViewHomeWorkVibeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0699012B3360E900CDE286 /* Debug */,
+				EA0699022B3360E900CDE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0699032B3360E900CDE286 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkVibeLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0699042B3360E900CDE286 /* Debug */,
+				EA0699052B3360E900CDE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0699062B3360E900CDE286 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkVibeLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0699072B3360E900CDE286 /* Debug */,
+				EA0699082B3360E900CDE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0699092B3360E900CDE286 /* Build configuration list for PBXNativeTarget "TableViewHomeWorkVibeLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA06990A2B3360E900CDE286 /* Debug */,
+				EA06990B2B3360E900CDE286 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0698D12B3360E700CDE286 /* Project object */;
+}
